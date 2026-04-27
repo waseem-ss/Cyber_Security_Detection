@@ -1,0 +1,1630 @@
+--- Page 1 ---
+Agentic-AI driven Cybersecurity Threat
+Detection
+Waseem Saleem Sayyed1 Krithika 2 Likitha V3 Praveen P N4 Rachana5 Rajashree Chandavar6 Narayana Darapaneni7
+Anwesh Reddy Padhuri8
+1Email: waseemsayyed@gmail.comGitHub: https://github.com/ LinkedIn: https://www.linkedin.com/
+2Email: krithika9613@gmail.comGitHub: https://github.com/ LinkedIn: https://www.linkedin.com/
+3Email: likitha1096@gmail.comGitHub: https://github.com/ LinkedIn: https://www.linkedin.com/
+4Email: pnpraveenpn@gmail.comGitHub: https://github.com/pnpraveenpn LinkedIn: https://www.linkedin.com/
+5Email: rachurachana4u@gmail.comGitHub: https://github.com/ LinkedIn: https://www.linkedin.com/
+6Email: chandavar.rajashree@gmail.comGitHub: https://github.com/ LinkedIn: https://www.linkedin.com/
+7Email: darapaneni@gmail.comGitHub: https://github.com/darapaneni LinkedIn: https://www.linkedin.com/in/darapaneni/
+8Email: aaaaaaaa@gmail.comGitHub: https://github.com/ LinkedIn: https://www.linkedin.com/
+
+--- Page 2 ---
+Contents
+1 Introduction and Literature Survey 1
+1.1 Background and Context 1
+1.2 Motivation and Importance of the Study 1
+1.3 Problem Definition and Scope 2
+1.4 Research Objectives and Questions 2
+1.5 Expected Contributions 2
+1.6 Review Methodology and Source Selection Criteria 3
+1.6.1 Inclusion Criteria 3
+1.6.2 Exclusion Criteria 4
+1.7 Survey of Existing Approaches 4
+1.7.1 Early Solutions and Classical Techniques 4
+1.7.2 Modern Approaches and Evolving Trends 4
+1.7.3 Emerging Models and Hybrid Frameworks 5
+1.8 Comparative Evaluation of Techniques 6
+1.9 Dataset and Benchmark Overview 8
+1.10 Tools, Frameworks, and Experimental Protocols 9
+1.11 Evaluation Metrics Used in Literature 10
+1.12 Limitations of Prior Work 10
+1.13 Research Gaps and Open Questions 11
+1.14 Innovation and Conceptual Synthesis 12
+1.15 Visualizations and Knowledge Summaries 14
+1.16 Academic Integrity and Citation Style 15
+1.17 Summary of the Chapter 15
+1.18 Structure of the Report 15
+2 Foundations 16
+2.1 Introduction to the Foundations Chapter 16
+2.2 Theoretical Underpinnings and Conceptual Framework 16
+2.3 Terminology and Notational Conventions 17
+2.4 Overview of Problem-Solving Paradigms 18
+2.5 Algorithmic Foundations 19
+2.6 Classical Algorithms 19
+2.7 Modern Algorithmic Extensions 19
+2.8 Model Design Principles 19
+2.9 Model Architectures and System Components 20
+2.9.1 The proposed methodology comprises four core Agents: 20
+2.9.2 High-Level Block Diagram for Proposed Methodology 21
+2.10 Input Processing Layer 22
+2.11 Data Preprocessing and Representation 23
+– i –
+
+--- Page 3 ---
+2.12 Core Processing Unit 23
+2.13 Output Generation Layer 23
+2.14 Feature Engineering and Selection Techniques 23
+2.15 Experimental Setup and Design Considerations 24
+2.16 Evaluation Metrics and Justification 24
+2.17 Domain-specific Constraints and Assumptions 24
+2.18 Interpretability and Explainability Foundations 25
+2.19 Implementation Toolchains (Conceptual View) 25
+2.20 Visualization Techniques and Diagrammatic Representation 25
+2.21 Ethical, Legal, and Societal Implications (ELSI) 26
+2.22 Challenges and Limitations in Theory or Practice 26
+2.23 Lessons from Iterative Development and Peer Feedback 27
+2.24 Responsible Use of Generative AI in Foundations Work 27
+2.25 Summary of the Chapter 27
+3 Interim Report 28
+3.1 Chapter Overview 28
+3.2 Dataset Acquisition and Preprocessing 28
+3.2.1 Dataset Description 28
+3.2.2 Data Quality Checks 28
+3.2.3 Exploratory Data Analysis (EDA) 28
+3.2.4 Preprocessing Pipelines 28
+3.3 Feature Engineering 28
+3.3.1 Feature Identification Techniques 28
+3.3.2 Dimensionality Reduction (if applicable) 28
+3.3.3 Feature Impact Observations 28
+3.4 Technical Implementation 28
+3.4.1 Tools and Technology Stack 28
+3.4.2 System Setup and Environment Configuration 29
+3.4.3 Modular Codebase Description 29
+3.5 Baseline Model Development 29
+3.5.1 Baseline Algorithm Description 29
+3.5.2 Training Setup and Parameters 29
+3.5.3 Early Performance Metrics 29
+3.5.4 Output Visualization and Interpretation 29
+3.6 Preliminary Analysis and Observations 29
+3.6.1 Result Analysis and Discussion 29
+3.6.2 Error Profiling and Bias Detection 29
+3.6.3 Lessons Learned 29
+3.7 Originality and Innovation in Approach 29
+3.7.1 Creative Framing of the Problem 29
+3.7.2 Experimental Innovations 29
+3.8 Risk Assessment and Project Management 29
+– ii –
+
+--- Page 4 ---
+3.8.1 Progress Tracker vs. Original Timeline 29
+3.8.2 Bottlenecks and Delays 29
+3.8.3 Risk Mitigation Strategies 29
+3.9 Experimental Reproducibility 30
+3.9.1 Data Splits and Control Measures 30
+3.9.2 Random Seed Control 30
+3.10 Scalability and Efficiency Considerations 30
+3.10.1 Memory, Time, and Resource Profiling 30
+3.10.2 Scalability Constraints 30
+3.11 Ethical Considerations and Responsible AI Use 30
+3.11.1 Generative AI Usage Disclosure 30
+3.11.2 Bias and Fairness in Dataset 30
+3.12 Feedback Incorporation and Continuous Improvement 30
+3.12.1 Peer and Mentor Feedback Summary 30
+3.12.2 Reflection and Learning Journey 30
+3.13 Chapter Summary and Next Steps 30
+– iii –
+
+--- Page 5 ---
+Introduction and Literature Survey 1
+1 Introduction and Literature Survey
+Subsection 1.1. Background and
+Context
+Subsection 1.2. Motivation and
+Importance of the Study
+Subsection 1.3. Problem Defini-
+tion and Scope
+Subsection 1.4. Research Objec-
+tives and Questions
+Subsection 1.5. Expected Contri-
+butions
+Subsection 1.6. Review Method-
+ology and Source Selection Crite-
+ria
+Subsection1.7. SurveyofExisting
+Approaches
+Subsubsection 1.7.1. Early Solu-
+tions and Classical Techniques
+Subsubsection 1.7.2. Modern Ap-
+proaches and Evolving Trends
+Subsubsection 1.7.3. Emerging
+Models and Hybrid Frameworks
+Subsection 1.8. Comparative
+Evaluation of Techniques
+Subsection 1.9. Dataset and
+Benchmark Overview
+Subsection 1.10. Tools, Frame-
+works, and Experimental Proto-
+cols
+Subsection 1.11. Evaluation Met-
+rics Used in Literature
+Subsection 1.12. Limitations of
+Prior Work
+Subsection 1.13. Research Gaps
+and Open Questions
+Subsection 1.14. Innovation and
+Conceptual Synthesis
+Subsection 1.15. Visualizations
+and Knowledge Summaries
+Subsection 1.16. Academic In-
+tegrity and Citation Style
+Subsection 1.17. Summary of the
+Chapter
+Subsection 1.18. Structure of the
+Report
+1.1 Background and Context
+Artificial Intelligence and Machine Learning have made it possible for automated systems
+to find patterns in network traffic. Many Artificial Intelligence security systems still need
+people to help them and they have a hard time keeping up with new threats.
+In recent days,Agentic AI is a way to make cybersecurity systems that can work on
+their own. These Agentic AI systems can look at the environment, make decisions and stop
+threats all by themselves. They can do this because they have capabilities like reasoning
+and planning. This means they can do cybersecurity tasks without any help. Some studies
+show that AI can make threat detection more accurate and help with real-time defense
+against cyber threats [7], [13].
+Agentic AI extends generative AI by improving reasoning, planning, tool use, memory,
+and autonomy that helps in enabling goal-directed, long-horizon behavior across real envi-
+ronments. In cybersecurity this is really useful for continuously monitoring and responding
+quickly to threats. At the same time they expand the attack surface through prompt/-
+tool injection, unsafe action execution, memory poisoning, and multi-agent manipulation.
+[1][2].
+For financial and retirement platforms, it’s found that the agentic methods do comple-
+ment the deep anomaly detection and UEBA. They help protect the flows, where the fraud
+likelihood is highest, such as rollovers, disbursements, and withdrawals. Increased use of
+CNN/LSTM/Transformer ensembles paired with event-driven and SOAR, zero -trust as
+governance agentic layers are seen in Architectures.[3]
+1.2 Motivation and Importance of the Study
+AI is being adopted increasingly by the threat actors themselves to automate reconnais-
+sance, social engineering and exploitation. Under high volume of attacks and novelty,
+traditional signature or rule pipelines lag. For the finance domain transparency, safe au-
+tonomy and governance are essential for adoption; though proactive, autonomous agents
+promise anomaly surfacing, reduced analyst load and faster time-to-contain.[3][4]
+As indicated from the literature survey autonomous Agentic AI systems improve cov-
+erage and response, that use deep ensembles of CNN+LSTM+Transformers, have benefits
+over traditional threat detection systems where it can; learn spacial-temporal patterns in
+logs/transactions,create UEBA baselines per user/entity, have streaming risk scoring inte-
+grated with SOAR playbooks, based on event-driven architectures.[3] These are narrowly
+scoped agents that align to NIST CSF 2.0 for better scalability and safety than a monolithic
+end-to-end agents. Agents reduce the failure impact on live SOCs.[1][2]
+Agentic AI systems that can act on their own have benefits over traditional security
+systems. They can watch what is happening on the network, find activities and take action
+to stop threats without someone always supervising them. These systems can look at a lot
+of security data, find patterns that do not seem right and change how they work as new
+threats appear.
+Recent studies have shown that Agentic AI systems that can act on their own can
+make cybersecurity better by allowing them to think and act independently, continuously
+monitor and find threats[8], [9]. This capability makes Agentic AI systems a great option
+for the next generation of cybersecurity solutions.
+
+--- Page 6 ---
+Introduction and Literature SurveyProblem Definition and Scope2
+1.3 Problem Definition and Scope
+Problem:The development of a cybersecurity framework that is capable of automatically
+detecting cyber threats and responding to them using Agentic AI techniques for high-stakes
+platforms.
+In-scope:(i) defensive agentic workflows (monitoring, detection, triage, response),
+(ii) adversarial capabilities unique to agents (reasoning compromise, unsafe tool use, mem-
+ory/state poisoning, multi-agent manipulation), (iii) governance and evaluation (CSF 2.0
+adaptation, specialized benchmarks).
+Out-of-scope:cryptographic payload design and physical robotics beyond cyber.
+[1][2][5]
+1.4 Research Objectives and Questions
+1. Synthesize threats, defenses, and evaluation for agentic AI in cybersecurity. [1][2]
+Compare detection/response architectures for finance (UEBA, deep ensembles, trans-
+formers, federated learning, agentic orchestration).[3] Map controls to NIST CSF 2.0
+and OWASP agentic threat model; identify least-agency guardrails. [5]. Assess RL-
+based response automation for latency and adaptability, and its risks. [6]
+2.Agentic AI Effectiveness:Analyze how agentic AI systems detect cybersecurity
+threats by continuous monitoring network activities and identifying anomalous pat-
+terns in complex environments. This objective identifies how agent-based frameworks
+improve detection accuracy compared to traditional machine learning approaches [7],
+[13].
+3.Autonomous Threat Detection:Investigate methods that enable autonomous cy-
+bersecurity agents to detect threats in real time without human intervention. Agentic
+AI systems analyze and understand system behavior, reason about threats, and auto-
+matically initiate defensive actions, improving cybersecurity responsiveness [9], [11].
+4.Multimodal Data Integration:Examine how agentic AI models can integrate
+multiple data sources such as network traffic logs, system logs, threat intelligence
+feeds, and sensor data to enhance anomaly detection performance. Multimodal anal-
+ysis can improve the identification of complex and coordinated cyberattack patterns
+[15].
+5.Adaptive Learning and Decision-Making:Evaluate how agentic AI systems
+continuously learn from evolving cybersecurity environments and adapt detection
+strategies by updating rules and decision policies based on new threat patterns and
+feedback [14].
+6.SecurityandGovernanceChallenges:Investigatechallengesindeployingagentic
+AI for cybersecurity, including scalability, safety, transparency, ethical governance,
+and resilience against adversarial manipulation of AI models [8], [9].
+1.5 Expected Contributions
+1.Thematic:The thematic survey is really important because it looks at all the pa-
+pers with a focus on the finance sector. It has tables that compare techniques and
+benchmarks and it also looks at governance controls. The survey uses a secure by
+design reference pattern that combines orchestration and least agency permissions
+and sandboxed tools and federated learning. This is useful because it helps identify
+
+--- Page 7 ---
+Introduction and Literature SurveyReview Methodology and Source Selection Criteria3
+research gaps and it has a blueprint for evaluation that is based on process metrics
+[1][2][3][4][5][6].
+2.Agentic AI-Based Threat Detection Framework:Develop an autonomous cy-
+bersecurity architecture using agentic AI to continuously monitor network activities,
+detect anomalies, and respond to threats through reasoning, planning, and adaptive
+decision-making without constant human supervision [7], [13].
+3.Autonomous Multi-Agent Cyber Defense Architecture:Design a multi-
+agent cybersecurity framework where many intelligent agents work together to detect
+anomalies and analyze threats and respond to incidents. This is useful because it can
+be used in cloud and enterprise environments and it can be scaled up to monitor
+threats.[11], [15].
+4.Adaptive Anomaly Detection Mechanisms:Develop adaptive anomaly detec-
+tion methods that can adjust to new cyberattack patterns and learn from the envi-
+ronment. This can be done using AI systems that update their threat models and
+detection thresholds as they learn. [10], [14].
+5.Comparative Analysis of AI-Driven Cybersecurity Techniques:We need to
+look at machine learning and deep learning and agentic AI to understand which one
+is best at detecting threats accurately, automate the threat detection and responding
+to them efficiently[9], [13].
+6.Secure and Governable Autonomous Cybersecurity Systems:Investigate
+the security and governance and ethical challenges of using AI and propose strategies
+to improve transparency and reliability and resilience against attacks and system
+failures. [8], [9].
+1.6 Review Methodology and Source Selection Criteria
+The literature review for this study was performed through a systematic search of ma-
+jor academic databases and scientific repositories to identify relevant research related to
+Agentic Artificial Intelligence, anomaly detection, and AI-driven cybersecurity
+systems.The main sources used for identifying relevant publications include IEEE Xplore,
+ACM Digital Library, ScienceDirect, arXiv, Google Scholar, and other recognized research
+repositories.
+Some keywords used during the literature search included: "agentic AI cybersecurity,
+"an agentic security taxonomy/defenses/evaluation, "autonomous cybersecurity agents,"
+"AI-driven threat detection," "anomaly detection in cybersecurity," "multi-agent security
+systems," "LLM-based anomaly detection," "autonomous cyber defense," and "AI-based
+security monitoring."
+The literature review focused on identifying research that explores and helps to learn
+the application ofAgentic AI systems, anomaly detection techniques, and au-
+tonomous cybersecurity architecturesfor detecting and responding to cyber threats
+in modern digital infrastructures.
+1.6.1 Inclusion Criteria
+The following criteria were checked to select relevant research papers:
+1. Publications from 2025-2026 focusing on recent advancements in agentic AI and cy-
+bersecurity
+
+--- Page 8 ---
+Introduction and Literature SurveySurvey of Existing Approaches4
+2. Peer-reviewed journal articles, conference papers, and recognized research preprints
+3. Studies focusing on Agentic AI architectures, anomaly detection systems, and au-
+tonomous cybersecurity agents
+4. Researchaddressingcybersecuritythreatdetection, automatedincidentresponse, and
+adaptive AI-based security systems
+5. Works discussing multimodal anomaly detection, multi-agent cybersecurity frame-
+works, or AI-driven predictive analytics
+1.6.2 Exclusion Criteria
+The following criteria were checked to exclude irrelevant studies:
+1. Publications not related to Agentic AI or cybersecurity applications
+2. Research focusing exclusively on theoretical AI models without practical cybersecu-
+rity relevance
+3. Studies lacking sufficient methodological details or experimental validation
+4. Research addressing outdated cybersecurity techniques without modern AI-based ap-
+proaches
+After conducting the literature search, multiple relevant publications were identified
+and analyzed. From these sources,some of the research papers were selected for de-
+tailed reviewbased on their direct relevance to Agentic AI-based cybersecurity systems,
+anomaly detection frameworks, and autonomous cyber defense mechanisms.
+Priority was given to studies that provide insights intoautonomous threat detec-
+tion,multi-agent cybersecurity architectures, and intelligent anomaly detection
+systems, as these topics directly support the research objectives of developing anAgentic
+AI-driven cybersecurity threat detection framework.
+1.7 Survey of Existing Approaches
+1.7.1 Early Solutions and Classical Techniques
+There are limitations to the current signature/rule pipelines and classical ML with manual
+interventions. They offer transparency and speed but struggle with zero-day drift and
+tactics[3]
+1.7.2 Modern Approaches and Evolving Trends
+Its indicated from the literature survey autonomous Agentic AI systems improve cover-
+age and response, that use deep ensembles of CNN+LSTM+Transformers,[3] have benefits
+over traditional threat detection systems where it can; learn spacial-temporal patterns in
+logs/transactions,create UEBA baselines per user/entity, have streaming risk scoring inte-
+grated with SOAR playbooks, based on event-driven architectures.[3] These are narrowly
+scoped agents that align to NIST CSF 2.0 for better scalability and safety than a monolithic
+end-to-end agents. Agents reduce the failure impact on live SOCs.[1][2]
+AutonomousAgenticAISystems:AutonomousAgenticAISystemsarelikeagents
+that can think, plan and act on their own to defend against cyber threats. They watch
+what is happening in the system all the time, look for patterns that might be a threat
+
+--- Page 9 ---
+Introduction and Literature SurveySurvey of Existing Approaches5
+and respond to those threats in time without constant human supervision [7], [13]. Multi-
+Agent Cybersecurity Architectures: Modern frameworks adopt multi-agent systems where
+we use smart agents that work together to find anomalies, look at threats and respond
+automatically. This way we can monitor cloud and enterprise systems and make them
+safer.[11]
+Sequence-Aware Behavioral Detection:Sequence-based anomaly detection mod-
+els understand the behavioral patterns in the system to find events that might be a cyber-
+attack in real time [12].
+Multimodal Anomaly Detection Systems:Multimodal approaches combine data
+from multiple sources such as network logs, system events, and sensor data to find complex
+patterns and improve detection accuracy [15].
+Predictive Analytics and Adaptive Learning:Modern cybersecurity systems
+integrate predictive analytics and adaptive learningto learn historical attack patterns
+and predict emerging threats and enable proactive cyber defense [14].
+Overall, cybersecurity research is moving towardautonomous and adaptive secu-
+rity architectures powered by agentic AI, combining deep learning, anomaly detec-
+tion, and multi-agent collaboration for real-time threat detection and response [7], [13].
+1.7.3 Emerging Models and Hybrid Frameworks
+Federated learning enables cross-institution fraud defense without sharing raw data. This
+is really helpful because it adds a level of explainability and control. It also makes
+sure that the system is fair and trustworthy. Federated learning is used with gover-
+nance(AIGA/SAGA) , which is like a set of rules that makes sure the system is working
+correctly. This is important for things like finance, where people need to be able to trust
+the system.[3][6]
+Federated learning is also used with something called reinforcement learning which’s
+a type of artificial intelligence. This type of learning helps the system respond quickly to
+changes. It also raises some concerns about safety and stability. To make sure the system
+is working correctly people use something called vectorized feature stores, which’s like a
+big database that stores all the information. They also use something called agent-to-agent
+coordination, which’s like a way for different parts of the system to talk to each other.[3][5]
+One of the challenges of using reinforcement learning in real-world situations is that
+it needs to be controlled. This is because the system is making decisions on its own and
+people need to make sure it is not doing anything wrong. To control the system people
+use something called guardrails, which’s like a set of rules that the system has to follow.
+They also use something called sim-to-real certification, which’s like a test to make sure
+the system is working correctly in the real world.[6]
+Agentic AI-Driven Hybrid Detection Models:Modern frameworks integrate tra-
+ditional anomaly detection algorithms withagentic AI systemsto detect and respond
+to cyber threats. These architectures enable intelligent agents to analyze system behavior
+and automatically respond to cyber threats, improving real-time security monitoring [7],
+[13].
+Multi-AgentCybersecurityFrameworks:Systemsusemultipleintelligentagents
+that work together to detect anomalies and respond to threats. These distributed ar-
+chitectures improve scalability and support monitoring of complex cloud and enterprise
+environments [11].
+Sequence-Aware and Behavioral Anomaly Detection:Hybrid models combine
+anomaly detection algorithms withsequence-aware analysisto detect abnormal behav-
+ioral patterns and suspicious system interactions in real time [12].
+
+--- Page 10 ---
+Introduction and Literature SurveyComparative Evaluation of Techniques6
+MultimodalAnomalyDetectionArchitectures:Multimodalframeworksintegrate
+multiple data sources such asnetwork traffic, system logs, and sensor datato detect
+complex cyberattack patterns that may not be identifiable using a single data source [15].
+Predictive and Adaptive Security Models:Hybrid approaches also combinepre-
+dictive analytics and adaptive learning, enabling systems to identify cyber threats
+and dynamically update detection strategies based on evolving attack patterns [14].
+Overall, these hybrid AI architectures combineanomaly detection, agent-based
+intelligence, and multimodal data analysisto create more robust and adaptive cy-
+bersecurity systems capable of addressing modern cyber threats [7], [13].
+1.8 Comparative Evaluation of Techniques
+T able 1. Evolving trends in Cyber security Threat analysis for Finance Use Cases
+Approach Strengths Limitations Finance Use-Cases Key
+Sources
+Rules/Signatures Fast, transparent Miss novel tactics,
+drift-sensitive
+Known IOCs/rollovers
+policy checks
+[3]
+Classical ML Efficient, inter-
+pretable
+Manual features;
+limited non-linear
+patterns
+First-pass fraud filters [3]
+Deep Ensembles High PR-AUC;
+long-range context
+Explainability;
+compute; drift
+Streaming fraud/UEBA
+scoring
+[3]
+Agentic Orchestra-
+tion
+Correlates signals;
+machine-speed ac-
+tion
+Autonomy risks;
+governance needed
+SOC triage, playbooks
+with human-on-the-loop
+[1][2]
+Federated Learning Cross-org general-
+ization; privacy
+Coordination and
+policy complexity
+Consortium fraud analyt-
+ics
+[3]
+RL Response Latency-optimized,
+adaptive
+Stability; sim-to-
+real; adversarial
+learning
+Automated containment
+actions
+[6]
+T able 2. Comparative analysis on various parameters
+Stack Element Governance
+Control
+Injection Re-
+silience
+Explainability Ops Cost
+Rules/Signatures
+[3]
+Policy-as-code;
+change control
+Low(contentspoof-
+ing)
+High Low
+Deep Ensembles [3] Model registry;
+drift monitors
+Medium with sani-
+tization
+Medium (XAI
+needed)
+Medium
+Agentic Orchestra-
+tion [1][2][5]
+Least-agency; im-
+mutable logs
+High with sandbox-
+ing & intent bind-
+ing
+Medium (trace
+replay)
+Medium-High
+RL Response [6] Action allow-lists;
+graded autonomy
+Medium (adver-
+sarial training
+required)
+Low-Medium High (train-
+ing/ranges)
+
+--- Page 11 ---
+Introduction and Literature SurveyComparative Evaluation of Techniques7
+T able 3. Comparative analysis of Agentic AI-based techniques for cybersecurity threat detection
+Method / Tech-
+nique
+Architecture Application
+Area
+Data Source Key Outcome
+Agentic AI Cyber-
+security Automa-
+tion
+Autonomous AI
+agents
+Cyber threat
+monitoring
+Network logs,
+threat intelligence
+Enables automated threat
+detection and response
+Agentic AI System
+Framework
+Autonomous AI ar-
+chitecture
+Intelligent deci-
+sion systems
+System activity
+data
+Adaptive AI systems ca-
+pable of reasoning and
+planning
+Cognitive Au-
+tonomous Cyber
+Defense
+Agentic AI security
+model
+Security gover-
+nance
+Security event logs Autonomous cyber
+defense and threat moni-
+toring
+Autonomous
+Anomaly Man-
+agement
+Agent-based
+anomaly detec-
+tion
+Complex system
+monitoring
+System behavior
+data
+Automatic anomaly iden-
+tification in dynamic envi-
+ronments
+Adaptive Cyberse-
+curity Architecture
+Multi-agent secu-
+rity framework
+Digital ecosys-
+tems
+Network traffic
+data
+Collaborative agent-based
+threat detection
+Sequence-Aware
+Anomaly Detection
+Sequence-based AI
+model
+Autonomous sys-
+tem monitoring
+Activity sequences Detection of abnormal AI-
+agent behaviors
+Multi-Agent Cy-
+bersecurity Frame-
+work
+Distributed agent
+architecture
+Security opera-
+tions centers
+Network and sys-
+tem logs
+Autonomous security
+monitoring and response
+Predictive
+Anomaly De-
+tection System
+Agentic predictive
+analytics
+Data-driven moni-
+toring
+Historical and sen-
+sor data
+Predictive detection of
+anomalies
+Multimodal Agen-
+tic Anomaly Detec-
+tion
+LLM-based agent
+architecture
+Multimodal
+anomaly detec-
+tion
+Logs, sensor data Improved detection using
+multiple data modalities
+Key observations:
+1.Autonomous vs Traditional Security Systems:Traditional intrusion detection
+systems rely heavily on predefined rules and supervised machine learning models. In
+contrast,Agentic AI systems introduce autonomous agentsthat can think
+and plan and respond to threats quickly which helps with real-time cyber defense [7],
+[13].
+2.Architecture Variations:Agentic cybersecurity frameworks adopt different archi-
+tectures includingsingle-agent systems, multi-agent frameworks, and mul-
+timodal AI architectures. Multi-agent systems provide improved scalability and
+enable distributed monitoring of large digital infrastructures [11].
+3.Data Source Diversity:Modern cybersecurity systems increasingly rely onmulti-
+ple data sources such as network logs, system events, behavioral patterns,
+and sensor datato improve anomaly detection accuracy. Multimodal approaches
+enable detection of complex attack patterns that cannot be identified using a single
+data source [15].
+4.Adaptive Learning and Prediction:Agentic AI models incorporateadaptive
+learning and predictive analytics, allowing cybersecurity systems to continuously
+learn from evolving attack patterns and anticipate future threats [14].
+5.Real-Time Cyber Defense:Agentic architectures enablereal-time detection
+and automated incident response, significantly reducing reliance on manual in-
+
+--- Page 12 ---
+Introduction and Literature SurveyDataset and Benchmark Overview8
+tervention in cybersecurity operations and improving overall system resilience [9],
+[12].
+1.9 Dataset and Benchmark Overview
+T able 4. Datasets and Benchmarks used for evaluating AI-driven cybersecurity systems
+Dataset/BenchmarkFocus Metric/Signal Notes Source
+Credit-Card/Bank-
+Fraud
+Imbalanced fraud
+detection
+PR-AUC, Recall at
+low FP
+Often synthetic; use
+SMOTE/AE
+[3]
+ToolEmu Tool-use safety Side-effect rate;
+policy violations
+LLM-emulated tools
+for scale
+[2]
+OS-Harm Desktop agents Safety + accuracy LLM judges vali-
+dated vs humans
+[2]
+AgentDojo Prompt-injection
+eval
+Attack success rate
+(ASR)
+Dynamic agent tasks [5]
+INJECAGENT Indirect injections End-to-end ASR;
+benign perf
+Tool-integrated
+pipelines
+[5]
+AgentHarm Harmful tool use Compliance & com-
+petence
+Tool-sequence safety [5]
+R-Judge Risk awareness Trajectory risk de-
+tection
+Judge/guardrail de-
+velopment
+[5]
+BADROBOT Embodied agent
+misuse
+Physical tool abuse Cyber-physicalscope [5]
+ARCeR/Cyberwheel Ranges & sim-to-
+real
+Task success, fi-
+delity
+Structured red–blue
+evaluation
+[1][2]
+"AgentDojo and Injecagent" benchmarks focus on injections from untrusted external con-
+tent such as HTML/Accessibility trees and retrieved snippets.[2]. It is essential to report
+both the success rate of attacks and the benign performance, when evaluating these bench-
+marks, which is the utility when there is no attack. ,reason being over-defense can limit the
+capability of the agent [5].The benchmarks OS-Harm and ToolEmu, which complement the
+webcentric tests, test desktop and tool-emulation behaviors.Both OS-Harm and ToolEmu
+support repeatable traces which are suitable for judges, like R-Judge to score risk awareness
+and policy compliance at the trajectory level.[2][5]
+Limitations of Existing Datasets:
+Despite the availability of benchmark datasets, several challenges remain in cybersecu-
+rity dataset research. Many datasets containoutdated attack patterns, lack diversity
+in network configurations, and suffer fromclass imbalance, where normal traffic signifi-
+cantly outnumbers malicious activity. Additionally, most datasets focus on specific attack
+scenarios and may not fully represent the complexity of real-world cybersecurity environ-
+ments.
+Agentic AI-based systems aim to overcome these limitations by enablingadaptive
+learning and real-time anomaly detection, allowing cybersecurity systems to contin-
+uously learn from dynamic environments rather than relying solely on static datasets [7],
+[13].
+
+--- Page 13 ---
+Introduction and Literature SurveyTools, Frameworks, and Experimental Protocols9
+1.10 Tools, Frameworks, and Experimental Protocols
+T able 5. Framework layers for the Agentic AI Threat Modeling
+Layer Examples Purpose Principal Risks Sources
+Modeling CNN/LSTM/Transformer/GNNSequence/graph
+anomaly detection
+Opacity; drift [3]
+Orchestration SIEM/SOAR/Event
+bus
+Correlation and au-
+tomated playbooks
+Runaway actions;
+policy gaps
+[3][1]
+Governance AIGA/SAGA/Zero-
+Trust/OPA
+Explainability, au-
+dit, policy control
+Overhead; alignment
+gaps
+[3][1][5]
+Protocols MCP/A2A Agent–tool and
+agent–agent commu-
+nications
+Injection; spoofing;
+recursive DoS
+[2][5]
+Isolation Sandboxing/containersConstrain tool exe-
+cution
+Overhead; escape
+risk
+[2][5]
+Preprocessing Tools:
+•Log Parsing and Feature Extraction Tools:Security logs, network traffic, and
+system activity data are processed using log-parsing and feature extraction tools to
+convertrawcybersecuritydataintostructureddatasetsforanomalydetectionmodels.
+As a result this efficiently analyzes network events and system behavior patterns. [15].
+•Data Cleaning and Normalization Tools:Data Preprocessing pipelines remove
+noise, normalize features, and eliminate redundant records to improve the quality of
+training data used in anomaly detection systems [14].
+•Data Aggregation and Monitoring Systems:Security monitoring systems col-
+lect and aggregate logs from multiple sources such as network devices, servers, and
+applications to create comprehensive datasets for AI-based cybersecurity models [9].
+AI and Machine Learning Frameworks:
+•Python-Based AI Ecosystem:Python is widely used for implementing cybersecu-
+rity threat detection systems due to its extensive ecosystem of machine learning and
+data analysis libraries.
+•TensorFlow and PyTorch:These deep learning frameworks support the develop-
+ment of neural network models for anomaly detection and provide GPU acceleration
+for large-scale data processing.
+•Multi-Agent AI Frameworks:Agentic AI architectures often use multi-agent sys-
+tems where autonomous agents collaborate to monitor networks, detect anomalies,
+and perform automated threat responses [11], [13].
+•Large Language Models (LLMs):LLM-based agents analyze security logs and
+threat intelligence data to enhance anomaly detection and enable intelligent decision-
+making in cybersecurity systems [15].
+Training Protocols:
+•DatasetPreparationandFeatureEngineering:Cybersecuritydatasetsaretrans-
+formed into structured formats through preprocessing and feature extraction tech-
+niques.
+
+--- Page 14 ---
+Introduction and Literature SurveyEvaluation Metrics Used in Literature10
+•Training and Testing Splits:Datasets are typically divided into training, valida-
+tion, and testing subsets to evaluate the generalization capability of cybersecurity
+detection models.
+•Hyperparameter Optimization:Hyperparameters such as learning rate, batch
+size, and model configurations are optimized using methods like grid search and
+random search.
+•Cross-Validation:Cross-validation techniques are applied to improve model relia-
+bility and reduce overfitting.
+Computational Infrastructure:
+•GPU-Enabled Training Systems:Deep learning models require GPU-based sys-
+tems for efficient training and faster computation.
+•Distributed Computing Platforms:Large-scale cybersecurity datasets may re-
+quire distributed data processing frameworks for efficient analysis and model train-
+ing.
+•CloudComputingPlatforms:Cloud-basedmachinelearningenvironmentsprovide
+scalable infrastructure for training and deploying cybersecurity detection models.
+Reproducibility Practices:
+•Open Research Datasets and Frameworks:Public datasets and open-source im-
+plementations support reproducible research.
+•Transparent Experimental Documentation:Detailed documentation of prepro-
+cessing pipelines, model architectures, and training procedures ensures transparency
+in experimental design.
+•Parameter and Configuration Reporting:Publication of hyperparameter config-
+urations and experimental settings allows other researchers to replicate and validate
+proposed cybersecurity detection models [14].
+1.11 Evaluation Metrics Used in Literature
+•Detection efficacy:Precision/Recall/F1, PRâĂŚAUC; latency/throughput; cali-
+bration; alert reduction. [3]
+•Safety/process:Completion-under-Policy (CuP), Risk Ratio, refusal rate, attack
+success rate under indirect injections, judge-human agreement. [2][5]
+•Reliability:The system passes with accuracy across multiple trials.We use trajec-
+toryâĂŚlevel scoring with LLM/agent judges, sandbox fidelity. [1][2][5]
+1.12 Limitations of Prior Work
+•Dataset Limitations:There are issues with current datasets.They are often imbal-
+anced, noisy and have limited labeled data.Also sharing data across institutions in
+finance is hard[3]. Many studies use benchmark datasets like KDD Cup 1999 NSL-
+KDD, CIC-IDS2017 and UNSW-NB15.These datasets may not reflect modern cyber
+threats and attack patterns[14]. Existing datasets rarely include multimodal security
+data, such as combined network traffic, system logs, behavioral activity records, and
+sensor data, limiting the effectiveness of advanced anomaly detection systems [15].
+
+--- Page 15 ---
+Introduction and Literature SurveyResearch Gaps and Open Questions11
+•Scalability Challenges:Agentic AI systems often require significant computational
+resources to process large volumes of security data. Handling massive traffic gener-
+ated in cloud and distributed infrastructures remains challenging for many anomaly
+detection models [11]. Communication and coordination overhead between multiple
+autonomous agents can impact system performance.
+•Generalization Issues:Models trained on specific datasets often fail to generalize
+effectively across different network environments. Many detection systems struggle
+to detect zero-day attacks and novel cyber threats [9]. Limited mechanisms exist for
+continuous learning and adaptation to evolving attack patterns.
+•Models/agents:Therearegapsinunderstandinghowmodelsmakedecisions.Models
+canbeaffectedbychangesindataovertime.Theycanalsobemanipulatedbyprompts
+or tools.There exist a multi-agent collusion risks. [1][2][5]. Many AI-based cybersecu-
+rity systems function as black-box models, making it difficult to interpret how threat
+detection decisions are made.Limited explainability reduces trust in automated secu-
+rity systems used in critical environments [13].
+•Operations:Legacyintegration, talentgaps, andtransparency/trustbarriersforau-
+tonomy.[4]. Response time, system integration, data privacy, and regulatory compli-
+ance are often insufficiently addressed in existing studies [7]. A gap between research
+models and real-world cybersecurity deployment environments.
+•Evaluation:Over-reliance on end-state metrics; limited long-horizon and multi-
+agent stress testing; sim-to-real gaps for RL. [1][2][6]
+•Security and Adversarial Risks:AI-based cybersecurity models are vulnerable to
+adversarialattacks, wheremaliciousinputsarecraftedtoevadedetection.Autonomous
+AI agents may introduce additional security risks if attackers exploit weaknesses in
+the agent decision-making process [8].
+1.13 Research Gaps and Open Questions
+Analysis of the reviewed literature reveals severalresearch gaps in Agentic AI-driven
+cybersecurity systemsthat require further investigation.
+Research Gaps:
+•G1-Least-Agency Execution: How to bind intent, permissions, and execution context
+across heterogeneous tools and protocols so injected instructions cannot cascade,
+without crippling utility? [2][5]
+•G2-AssuranceforLong-Horizon, Multi-AgentSystems: Process-awaremetrics, repeated-
+trial safety, and ranges with realistic agent communication and oversight. [1][2][5]
+•G3-Finance-Specific Adaptation: Retirement/wealth flows, older-user fraud patterns,
+and legacy cores via privacy-preserving federation and explainable decisions. [3][4]
+•G4-RL Safety Sim-to-Real
+•G5-Autonomous Threat Detection: Most cybersecurity systems still require human
+supervisionfordecision-makingandincidentresponse. Fullyautonomousagent-based
+cybersecurity frameworks are still limited. [7], [13]
+
+--- Page 16 ---
+Introduction and Literature SurveyInnovation and Conceptual Synthesis12
+•G6-Multimodal Security Data Integration: Many detection systems rely on single
+data sources such as network traffic or logs, limiting their ability to detect complex
+attacks. [15]
+•G7-Scalability of Agentic AI Systems: Deploying agent-based cybersecurity systems
+in large cloud and distributed infrastructures introduces scalability and coordination
+challenges. [11]
+•Gap 4: Adversarial Robustness: AI-based cybersecurity models can be vulnerable to
+adversarial attacks designed to evade detection systems. [8]
+•Gap 5: Continuous Learning: Many detection models struggle to detect zero-day
+attacks and evolving threat patterns due to static training methods. [14]
+•Gap 6: Explainability and Trust: Agentic AI systems often function as black-box
+models, reducing transparency in security-critical decisions. [13]
+Open Questions:
+•How to stabilize RL policy learning under adversarial pressure and certify behavior
+before autonomy in production? [6]
+•How can Agentic AI systems enable reliable autonomous threat detection and re-
+sponse in real-world environments? [7], [13]
+•How can Agentic AI integrate multimodal data sources (network logs, behavioral
+data, sensor data) to improve anomaly detection accuracy? [15]
+•Whatarchitectureenablesscalablemulti-agentcybersecuritymonitoringindistributed
+environments? [11]
+•How can Agentic AI systems improve robustness against adversarial manipulation?
+[8]
+•How can Agentic AI incorporate continuous learning to adapt to emerging cyber
+threats? [14]
+•How can explainable AI techniques improve transparency and trust in autonomous
+cybersecurity systems?[13]
+These gaps motivate the proposed research on developing scalable, autonomous, and
+adaptive Agentic AI-based cybersecurity threat detection systems.
+1.14 Innovation and Conceptual Synthesis
+The reference pattern used for finance is UEBA + CNN/LSTM/Transformer ensembles
+for early anomaly detection . For security implement agentic orchestration with limited
+access credentials, zero-trust policy, and SOAR.Sandboxed tool execution with protocol
+policy checks (MCP/A2A).Federated continual learning across providers.CSF 2.0-aligned
+controls (principle of least agency, immutable logs, dynamic revocation/quarantine). RL-
+assisted containment gated by safety metrics and human escalation. [1][2][3][5][6]
+
+--- Page 17 ---
+Introduction and Literature SurveyInnovation and Conceptual Synthesis13
+Figure 1. Agentic AI Threat Taxonomy (schematic)
+Figure 2. Event-Driven Agentic Security Architecture (Finance)
+
+--- Page 18 ---
+Introduction and Literature SurveyVisualizations and Knowledge Summaries14
+Figure 3. NIST CSF 2.0 Mapping for Agentic-AI Controls (schematic)
+Adapted from the 2025 SLR that aligns agentic threats/controls with CSF 2.0 and
+OWASP model. [5]
+T able 6. Mapping of NIST CSF 2.0 Functions to Agentic AI Security Controls
+CSF 2.0 Agentic Focus Representative Control Refs
+Govern Strategy & oversight Principle of Least Agency; oversight agents [5]
+Identify Assets & risks Inventory tools/permissions, model weights, RAG stores [5]
+Protect Safe execution Sandboxed tools; safety-chip plan checks; polymorphic prompts [5]
+Detect Behavioral anomalies Monitor tool sequences, reasoning traces, inter-agent comms [5]
+Respond Containment Dynamic revocation, quarantine, alignment restoration [5]
+Recover Trusted state Memory cleansing; rollback; blockchain-anchored audit [5]
+1.15 Visualizations and Knowledge Summaries
+Figures 1âĂŞ3 summarize core risks, a finance-centric architecture, and a governance map-
+ping. Tables in Sections 1.8-1.10 consolidate techniques, benchmarks, and tooling for im-
+plementation and evaluation[1][2][3][5].
+
+--- Page 19 ---
+Introduction and Literature SurveyAcademic Integrity and Citation Style15
+Figure 4. Techniques used in Agentic AI cybersecurity research
+1.16 Academic Integrity and Citation Style
+This chapter follows IEEE numeric citation style. Ideas are paraphrased with attribution to
+the sources; verbatim quotations are avoided or quoted with page/figure references where
+applicable [1]-[15].
+1.17 Summary of the Chapter
+Agentic AI can help us to improve detection and response through deep ensembles, UEBA,
+and orchestrated, policy-bound automation, especially in finance. Yet autonomy introduces
+threats at reasoning, action, memory, and multi-agent layers. CSF 2.0-aligned controls
+(least-agency, sandboxed tools, immutable logs, dynamic revocation) and process-aware
+evaluation are necessary complements. Reinforcement Learning adds responsiveness to the
+threat detection, but it needs stabilization and careful gating. [1][2][3][5][6]
+1.18 Structure of the Report
+Chapter 1: Introduction, Chapter 2: Requirements & Data, Chapter 3: Methods & Ar-
+chitecture, Chapter 4: Experiments & Evaluation, Chapter 5: Ethics, Governance, and
+Limitations, Chapter 6: Conclusions & Future Work.
+
+--- Page 20 ---
+Foundations 16
+2 Foundations
+Subsection 2.1. Introduction to
+the Foundations Chapter
+Subsection 2.2. Theoretical
+Underpinnings and Conceptual
+Framework
+Subsection 2.3. Terminology and
+Notational Conventions
+Subsection 2.4. Overview of
+Problem-Solving Paradigms
+Subsection 2.5. Algorithmic
+Foundations
+Subsection 2.6. Classical Algo-
+rithms
+Subsection 2.7. Modern Algorith-
+mic Extensions
+Subsection 2.8. Model Design
+Principles
+Subsection 2.9. Model Architec-
+tures and System Components
+Subsection 2.10. Input Processing
+Layer
+Subsection 2.12. Core Processing
+Unit
+Subsection 2.13. Output Genera-
+tion Layer
+Subsection 2.11. Data Prepro-
+cessing and Representation
+Subsection 2.14. Feature Engi-
+neering and Selection Techniques
+Subsection 2.15. Experimental
+Setup and Design Considerations
+Subsection 2.16. Evaluation Met-
+rics and Justification
+Subsection 2.17. Domain-specific
+Constraints and Assumptions
+Subsection 2.18. Interpretability
+and Explainability Foundations
+Subsection 2.19. Implementation
+Toolchains (Conceptual View)
+Subsection 2.20. Visualization
+Techniques and Diagrammatic
+Representation
+Subsection 2.21. Ethical, Legal,
+and Societal Implications (ELSI)
+Subsection 2.22. Challenges and
+Limitations in Theory or Practice
+Subsection 3.12. Lessons from
+Iterative Development and Peer
+Feedback
+Subsection 2.24. Responsible Use
+of Generative AI in Foundations
+Work
+Subsection 2.25. Summary of the
+Chapter
+2.1 Introduction to the Foundations Chapter
+The evolving landscape informs this research on cybersecurity in the context of advances in
+Machine Learning and Artificial Intelligence. Traditional security mechanisms that make
+use of Artificial Intelligence systems have found it difficult to adapt to the changing en-
+vironment due to the presence of fixed rule sets and high dependency on human input
+[3], [4]. Thus, such security measures have proven to be insufficient in handling the ever-
+changing threat landscape. Considering the emergence of advanced forms of cyber-attacks
+using Artificial Intelligence systems, there arises an urgent requirement for self-regulating
+mechanisms.
+Agentic Artificial Intelligence marks the evolution of this field, which is different from
+the concept of Artificial Intelligence. Agentic Artificial Intelligence is capable of providing
+long-term memory, planning, and tool-integration, which enables these tools to effectively
+operate in complex environments and respond to security threats in real time without
+the requirement for human intervention "in the loop" [1], [2]. Within this chapter, the
+algorithmic, theoretical, and architectural building blocks to design the entire security
+framework using Agentic Artificial Intelligence will be established.
+2.2 Theoretical Underpinnings and Conceptual Framework
+The present research employs a group of technical terms to describe the autonomous se-
+curity framework. Agentic AI is described in this research as "a system in which cognition
+and execution can occur independently in uncertain environments" [1]. Moreover, this can
+be further supported by "User and Entity Behavior Analytics" (UEBA), which emphasizes
+"detecting anomalies by establishing baselines for human and machine entity behaviors"
+[3]. Finally, the implementation of defensive actions can be carried out through "SOAR"
+(Security Orchestration, Automation, and Response), which replaces human interventions
+through "high-speed workflows" [3].
+From the perspective of data analysis, "anomaly" can be defined as "a significant de-
+viation from a system’s predicted behavior," which necessitates the use of "multimodal
+data" that combines different data streams such as "sensor data" and "network data" [15].
+Moreover, the logic behind the agent’s evolution can be supported by "reinforcement learn-
+ing" (RL). In RL, "agents learn to transition between different states by executing actions
+according to policies that optimize reward signals from the environment" [6].
+Agentic AI refers to intelligent systems capable of perception, reasoning, planning,
+and action execution in dynamic environments. Unlike traditional AI models, which are
+reactive, agentic systems are proactive and goal-oriented.
+Anomaly Detection Theory Cyber threat detection is primarily based on identifying
+deviations from normal behavior.
+Anomaly =|X−µ|>θ
+Where:
+X=observed behavior
+µ=expected behavior
+θ=anomaly threshold
+This principle is extended using machine learning and deep learning models for complex
+environments.
+Reinforcement Learning for Adaptive Defense
+Agentic systems use reinforcement learning (RL) for decision-making:
+
+--- Page 21 ---
+Foundations Terminology and Notational Conventions17
+π(α|s) =P(action|state)
+Where:
+s=system state
+α=action
+π=policy
+RL enables agents to:
+•Learn optimal responses
+•Adapt to new attack strategies
+•Minimize response time
+Figure 5. Decision Making Cycle
+2.3 Terminology and Notational Conventions
+This section we define technical terms, abbreviations, and symbols for consistency and
+clarity across the Chapter.
+
+--- Page 22 ---
+Foundations Overview of Problem-Solving Paradigms18
+T able 7. Key Terms and Definitions
+Term / Notation Definition
+Agentic AI Autonomous AI system capable of reasoning, planning, and taking
+actions without continuous human intervention
+Anomaly Detection Process of identifying patterns in data that deviate from expected
+or normal behavior
+UEBA (User and Entity
+Behavior Analytics)
+Technique used to detect abnormal user or system behavior based
+on historical patterns
+SOAR (Security Orches-
+tration, Automation, and
+Response)
+Platform that automates incident detection, investigation, and
+response workflows
+Threat Intelligence Information about potential or existing cyber threats used for
+proactive defense
+Decision Engine Core component that evaluates inputs and determines appropriate
+actions based on learned patterns
+Feature Vector Numerical representation of data used as input for machine learn-
+ing models
+False Positive (FP) Incorrect identification of normal activity as a threat
+False Negative (FN) Failure to detect an actual threat
+Precision Ratio of correctly predicted positive observations to total pre-
+dicted positives
+Recall Ratio of correctly predicted positive observations to all actual pos-
+itives
+F1-Score Harmonic mean of precision and recall used to balance both met-
+rics
+PR-AUC Area under the Precision-Recall curve, useful for imbalanced
+datasets
+Reinforcement Learning
+(RL)
+Learning paradigm where an agent learns by interacting with an
+environment using rewards and penalties
+Multi-Agent System System composed of multiple interacting intelligent agents work-
+ing collaboratively or independently
+SIEM Security Information and Event Management
+2.4 Overview of Problem-Solving Paradigms
+Throughout history, the identification of cyber threats has followed the evolution of several
+technologically advanced stages. Early frameworks were designed using signature-based
+and rule-based logic. Although these frameworks ensured high transparency and process-
+ing speeds, they were unable to address the flexibility required to effectively counter the
+evolving exploits. Later, the application of machine learning technology ensured the adop-
+tion of a more analytical and data-centric approach. Even this technology was unable to
+overcome the challenges associated with the high dependency on manual feature selection
+and the inability to predict unknown zero-day attacks [9].
+Anothermajorshiftintheevolutionofthefieldcamewiththeadoptionofdeeplearning
+techniques. These techniques ensured the application of LSTMs, Transformers, and CNNs
+to automatically extract complex features from the huge streams of data. Today, the field is
+moving towards the application of agent-based AI, which is characterized by the application
+of entities. Unlike earlier approaches, this paradigm enables the application of constant
+surveillance and incident response, transforming the field from reactive to self-governing
+and proactive [7], [13].
+Agentic AI represents an advanced paradigm where systems not only detect anomalies
+but also reason and take autonomous actions. This paradigm shifts the focus from reactive
+
+--- Page 23 ---
+Foundations Algorithmic Foundations19
+defense to proactive and adaptive cybersecurity systems capable of operating in dynamic
+environments.
+2.5 Algorithmic Foundations
+The computational framework of this research includes sequence modeling, anomaly detec-
+tion, and decision optimization. Classification and clustering are the primary methods for
+flagging behavioral anomalies in the system [3]. However, to cater to the time-constrained
+nature of cybersecurity data, LSTM and Transformer models are also being used. The for-
+mer is particularly good at extracting temporal features, which are essential for detecting
+complex and non-linear forms of attacks [3].
+Optimization of responses is also being carried out by implementing reinforcement
+learning. This allows autonomous agents to respond to changing adversarial behaviors by
+adapting their strategies [6]. Finally, data sovereignty is being addressed by implementing
+federatedlearning. Thisallowsmultipleorganizationstotrainmodelsandshareintelligence
+without compromising data privacy and sovereignty [3].
+2.6 Classical Algorithms
+Typically, a traditional cybersecurity framework incorporates existing machine learning
+algorithms such as logistic regression, support vector machines, and decision trees. Such
+traditional models offer a high level of transparency and computational efficiency. There-
+fore, these traditional models serve as powerful tools for identifying known security risks
+[3].
+However, despite the significant benefits of traditional machine learning models, these
+models have a fixed architecture that does not take into account the non-linear complexities
+of modern network data. The traditional models’ use of human-based feature selection
+makes them inflexible tools for identifying new zero-day risks. Therefore, these traditional
+models are not sufficiently effective in identifying complex and evolving patterns of modern
+cyber threats [9].
+2.7 Modern Algorithmic Extensions
+Modern security strategies are a step forward from traditional strategies, incorporating
+deeplearningandautonomoustechnologies. Byemployingdeepensemblingtechniquesthat
+combine CNN, LSTM, and Transformer models, these systems can achieve high accuracy.
+This is due to their capability to effectively handle both spatial and temporal features
+hidden in complex data flows [3].
+The incorporation of agentic orchestration has taken a significant step toward advanc-
+ing cybersecurity processes, introducing new dimensions of reasoning, planning, and tool-
+interaction capabilities. This takes a step closer to achieving autonomous decision-making
+processes in cybersecurity [1], [2]. To keep these systems at their peak, reinforcement learn-
+ing techniques are employed to adapt defensive strategies based on environmental feedback
+[6]. The current state-of-the-art strategy in this domain is represented by hybrid mod-
+els, which are complex frameworks incorporating anomaly-based and predictive analytics,
+along with agent-based reasoning capabilities [7], [13].
+2.8 Model Design Principles
+The design of the proposed framework is mainly guided by the need to ensure modularity,
+security, and scalability of the computations. This is because a modular system can allow
+the smooth integration of different functional layers of the system, including the detection
+
+--- Page 24 ---
+Foundations Model Architectures and System Components20
+mechanism and the response mechanism. To ensure the scalability of the system and its
+ability to process large volumes of data, the proposed framework uses a distributed multi-
+agent system with the ability to perform parallel computations [11].
+To ensure the integrity of the autonomous system, the proposed system uses a number
+of security protocols. This includes the use of sandboxing and the principle of least-agency
+to restrict the functionality of the system’s components [5]. To ensure the system’s ability
+to respond to the changing nature of the threat landscape, the system uses a number of
+continuous learning loops to refine the system’s ability to respond and react to the threat
+landscape [14].
+2.9 Model Architectures and System Components
+Thissectionwillprovideavisualandtextualbreakdownofthesystemormodelarchitecture
+used.
+2.9.1 The proposed methodology comprises four core Agents:
+T able 8. Agent Roles in the Proposed System
+Agent Role
+Detection Agent Utilizing hybrid machine learning models (CNN for network traffic
+analysis and Transformer-based models for log sequence analysis)
+to identify anomalies and extract indicators of compromise.
+Investigation Agent Employing natural language processing and knowledge graph rea-
+soning to correlate threat intelligence from multiple sources and
+generate attack hypotheses.
+Response Agent Implementing policy-driven automated countermeasures such as
+endpoint isolation, firewall rule updates, and patch deployment.
+Coordinator Agent Managing inter-agent communication, priority assignment, and
+escalation workflows. The system leverages large language models
+(LLMs) integrated with cybersecurity tools through ReAct (Rea-
+soning and Acting) frameworks and LangGraph for stateful agent
+orchestration.
+
+--- Page 25 ---
+Foundations Model Architectures and System Components21
+Figure 6. System Layers
+2.9.2 High-Level Block Diagram for Proposed Methodology
+System Workflow:
+1.Data Collection:Aggregate security telemetry from network devices, SIEM sys-
+tems, endpoints, and threat intelligence feeds
+2.Preprocessing:Normalize heterogeneous data formats, extract relevant features,
+and enrich with contextual information
+
+--- Page 26 ---
+Foundations Input Processing Layer22
+3.Detection Phase:Detection Agent analyzes data using hybrid ML models to iden-
+tify anomalies and generate alerts with confidence scores
+4.Investigation Phase:Investigation Agent correlates alerts with threat intelligence,
+performs root cause analysis, and generates attack hypotheses
+5.Coordination:Coordinator Agent prioritizes threats, assigns tasks to specialized
+agents, and manages communication protocols
+6.Response Phase:Response Agent executes automated countermeasures based on
+predefined policies and threat severity levels
+7.Oversight:High-risk actions require human approval through oversight dashboard
+with explainable AI justifications
+8.Execution:Approvedactionsareimplementedinproductionenvironmentwithcom-
+prehensive logging for audit trails
+9.Feedback Loop:System performance metrics and incident outcomes feedback into
+agent training for continuous improvement
+Figure 7. High Level Architecture
+2.10 Input Processing Layer
+The project has picked the Finance domain . The input processing layer will simulate
+the finance threats using the existing benchmark datasets as mentioned in the Literature
+review section 1.9.
+This layer is considered to be the primary entry point for the system and is tasked
+with data collection and preprocessing from a variety of sources. It collects data streams
+from different sources, including network logs, system logs, and external threat intelligence
+feeds, and normalizes them. This layer aggregates security telemetry from network devices,
+
+--- Page 27 ---
+Foundations Data Preprocessing and Representation23
+SIEM systems, endpoint, and threat intelligence feeds. Normalizing this data is considered
+a crucial step, as it allows unstructured data to be converted into structured data for
+computational analysis [15].
+2.11 Data Preprocessing and Representation
+The first part of this framework is concerned with the meticulous cleaning, normalization,
+and transformation of raw cybersecurity telemetry. This is an essential part of the frame-
+work, especially when considering the need to translate raw inputs into the system, such as
+raw logs. Through the use of automated log parsing and feature extraction, the framework
+is successful in translating raw logs into structured datasets that are necessary for machine
+learning analysis [15].
+In order to further improve the analytical capabilities of the framework, complex data
+representation techniques are used. These techniques include sequence encoding and fea-
+ture stores. These techniques are more than just mere data organization techniques. They
+are techniques that enable the framework to map out complex relationships and under-
+stand the essential time dependencies that are necessary in cybersecurity. Through this
+representation, the framework is able to identify even complex time-delay attacks [3].
+2.12 Core Processing Unit
+The brain of this framework, so to speak, is the core processing unit, a central core through
+which anomaly detection models, agentic reasoning models, and orchestration models con-
+verge. This framework, therefore, uses deep learning models to detect anomalies from the
+norm, while the agentic models assess the environment to determine what course of ac-
+tion would be most appropriate. To make this framework scalable and able to perform
+distributed oversight through a growing network, a multi-agent architecture has been in-
+corporated, allowing for both scalability and parallel processing ability [11], [13].
+2.13 Output Generation Layer
+The last layer, namely the Output Generation Layer, has the responsibility of converting
+the result obtained from the core unit into a form that can be implemented, such as risk
+evaluation, security alerts, and even defensive actions. This layer has a direct interface with
+Security Orchestration, Automation, and Response tools, ensuring that actions are imple-
+mented in a prompt manner without requiring human intervention. However, the system
+does not stop at just implementing actions; rather, it also seeks to ensure transparency
+and accountability through a complete reasoning trail and decision logs, ensuring that all
+actions implemented by the system are "explainable" and can be traced by security teams
+to understand the logic behind a particular mitigation strategy [3].
+2.14 Feature Engineering and Selection Techniques
+However, the process of feature engineering is the core of converting the raw telemetry into
+intelligent output. This process entails the meticulous extraction of meaningful patterns,
+which can range from high-level behavioral characteristics to detailed statistical metrics
+and intricate temporal patterns [14]. To ensure the system remains computationally lean
+without compromising efficiency, complex feature selection methods are implemented. This
+process filters out the noise and the most impactful data points, thus directly increasing
+the efficiency of the model.
+Although the process of manual engineering is a structured approach, the inclusion of
+deep learning models has proven to be a significant leap in this regard. This is because
+
+--- Page 28 ---
+Foundations Experimental Setup and Design Considerations24
+deep learning models can automatically extract features, which significantly reduces the
+dependency on traditional parameters. This process can automatically detect intricate and
+non-linear relationships between the data points, thus significantly increasing the accuracy
+of the system and its ability to detect novel threats [3].
+2.15 Experimental Setup and Design Considerations
+The research architecture of this study is based on a robust validation approach, which
+begins with the systematic splitting of the available datasets into separate training sets,
+validation sets, and testing sets. To guarantee the robustness and reliability of the devel-
+oped models, the approach uses cross-validation methods. This is important in reducing the
+risk of overfitting while maintaining the consistency of the system’s prediction capabilities
+with different and unseen data profiles [14].
+Besides data splitting, there are some essential design aspects incorporated to ensure
+data integrity. These aspects include tackling data imbalance issues, which is a major
+problem for cybersecurity datasets. It is followed by data quality and experiment repro-
+ducibility. In order to bridge the gap between static analysis and practical application, this
+study utilizes simulation environments. These environments allow for the safe exploration
+of autonomous agent behaviors, giving a chance to test how agents reason and respond to
+complex threats before practical application [1], [2].
+2.16 Evaluation Metrics and Justification
+In order to fully understand the efficacy of the proposed system, a framework has been
+developed and categorized into three different categories, namely detection, safety, and
+reliability. The detection metrics are considered to be the main criteria for measuring the
+efficacy of the system in identifying anomalies effectively. This includes standard metrics
+such as precision, recall, F1 score, and Area Under Precision Recall Curve, which enable
+a fine-grained evaluation of the accuracy of the system in diagnosing anomalies effectively
+[3].
+In addition to detection, safety metrics are also incorporated in the framework to assess
+how effectively the system performs under pressure. Metrics such as policy compliance, risk
+ratio, and attack success rate are critical in measuring how effectively the system performs
+under pressure and how effectively autonomous actions are carried out within authorized
+boundaries [2], [5]. To make the framework more viable, reliability metrics are incorporated
+toassesshoweffectivelythesystemperformsunderrepeatedtrials, ensuringthatitsefficacy
+does not reduce over time or under different environmental conditions [1].
+2.17 Domain-specific Constraints and Assumptions
+The proposed system has been particularly designed with the aim of deployment in the
+critical domain of financial cybersecurity. The framework has to operate in a challenging
+environment where real-time data processing, regulatory compliance, and data privacy are
+critical non-negotiables in financial cybersecurity, as discussed in [3] and [4]. The proper
+functioning of the proposed model relies upon a series of underlying principles, including
+the presence of logging mechanisms, structured data, and adequate computing capabilities.
+Additionally, the rationale behind the entire framework is based on the understanding
+that security threats are always characterized by certain behavioral patterns deviating from
+the norm. This enables the system to detect these patterns and possibly alert the system to
+potential security breaches or fraud attempts. To guarantee the effectiveness of the system
+in the face of adaptive threats, the entire architecture is predicated on the possibility of
+
+--- Page 29 ---
+Foundations Interpretability and Explainability Foundations25
+applying adaptive learning techniques to improve the accuracy of the system’s detection
+capabilities and evolution [14].
+2.18 Interpretability and Explainability Foundations
+In the critical domain of cybersecurity, explainability is no longer just an attribute, but
+rather a fundamental requirement in order to gain human trust in automated decision-
+making. One major challenge facing contemporary cybersecurity has been that many
+state-of-the-art deep learning architectures tend to be "black boxes," where the underlying
+reasoning behind a particular threat detection mechanism remains obscure and hard to
+interpret by security analysts [13]. In order to address this challenge, agentic systems have
+been designed with a layered approach to transparency. By providing detailed reasoning
+traces, extensive action logs, and strong auditing capabilities, agentic systems offer a "paper
+trail" that explains every autonomous decision taken by the system.
+In order to further enhance human-in-the-loop decision-making in critical domains,
+the framework has been extended with a suite of Explainable AI (XAI) techniques. These
+techniques will allow security analysts to interpret complex neural network patterns, thus
+demystifying the underlying reasoning behind a particular threat detection mechanism. By
+providing human analysts with detailed reasoning traces, security analysts will be able to
+verify whether autonomous decision-making has been justifiable and transparent, rather
+than simply expedient.
+2.19 Implementation Toolchains (Conceptual View)
+The practical implementation of the proposed system is grounded in an already well-
+developed Python-based system, utilizing well-known and well-supported deep learning
+frameworks such as PyTorch and TensorFlow. However, to take the system beyond the
+realm of static detection, the system is designed to integrate well-known and well-supported
+multi-agent frameworks, designed to enable true agentic capabilities. The frameworks are
+then augmented by the implementation of Large Language Models (LLMs), acting as the
+cognitive core, responsible for the high-level reasoning and decision-making necessary to
+effectively navigate the complex world of security [15].
+To handle the high levels of computational power required by modern cybersecurity, the
+system is designed to take advantage of cloud computing and distributed system technolo-
+gies. The infrastructure is designed to ensure the horizontal scalability necessary to handle
+the high levels of data throughput and analysis without sacrificing system performance [9].
+Supporting the infrastructure is an array of automated data preprocessing and monitoring
+tools, designed to handle the end-to-end lifecycle of data management. By streamlining
+everything from the initial data ingestion to the end-state performance monitoring, the
+implementation is designed to ensure that the agentic logic is supported by clean, relevant,
+and timely data.
+2.20 Visualization Techniques and Diagrammatic Representation
+However, to effectively translate the complex security data into meaningful and actionable
+knowledge, the framework leverages a wide variety of visualization methods. This starts
+with the high-level system architectures, threat taxonomies, and governance mappings,
+which give a broad understanding of the system’s structure and the relationships between
+the various components of the security system. This provides a better understanding of the
+relationships between the different components of the system and the nature of the risks
+they are exposed to.
+
+--- Page 30 ---
+Foundations Ethical, Legal, and Societal Implications (ELSI)26
+However, to effectively operate the system in real-time, the system uses a number of
+graphical representations of the system and the various components of the system. This is
+particularly important because it is specifically designed to highlight anomalies and system
+performance in a manner that is immediately intuitive and understandable. This provides a
+significant enhancement of the system’s awareness and enables rapid and effective decision-
+making in the cybersecurity system [3]. Whether it is the detection of a sudden spike in
+irregular traffic patterns or auditing the effectiveness of the autonomous system’s response,
+these visual representations are a critical link between the raw data and the oversight
+process.
+Figure 8. System WorkFlow
+2.21 Ethical, Legal, and Societal Implications (ELSI)
+The incorporation of Agentic AI in the domain of cybersecurity has given rise to a complex
+gamut of ethical and legal dilemmas, primarily related to data privacy, algorithmic bias,
+and the underlying principle of accountability itself [8]. This is due to the fact that, owing
+to its autonomous nature, Agentic AI cannot operate in a vacuum and hence has to be
+aligned with existing regulatory frameworks, ensuring not only its efficacy but also its
+safety and socially acceptable nature.
+In order to avert any potential risks associated with Agentic AI, a high degree of
+governance frameworks has to be incorporated, ensuring that there is no scope for its
+potential misuse and a high degree of transparency, especially in critical industries such as
+finance [5]. This can be ensured through a proper framework of protocols, ensuring a fine
+line between the rapid response nature of Agentic AI and its underlying human-defined
+nature.
+2.22 Challenges and Limitations in Theory or Practice
+The move towards autonomous security is also faced with a number of challenges, such
+as those concerning datasets, scalability, and generalization. The major problem is that
+
+--- Page 31 ---
+FoundationsLessons from Iterative Development and Peer Feedback27
+a number of datasets, especially those used for cybersecurity, are no longer valid, as they
+lack the modern diversity required to effectively train AI models for modern, real-world
+scenarios. This "data aging" is a major problem, as it limits the potential for AI systems
+to effectively respond to modern, high-sophistication cyber-attacks [14].
+In addition to these challenges, the use of agentic systems is also faced with a number of
+operational risks, such as the potential for adversarial manipulation, where an attacker may
+use the AI logic to their own advantage, and the potential for "unsafe" actions, especially
+in a crisis situation. Finally, the complexity that arises when the number of autonomous
+systems increases is a major problem, often resulting in synchronization conflicts and poor
+resource allocation [1], [2], [5].
+2.23 Lessons from Iterative Development and Peer Feedback
+The path to an effective high-performance cybersecurity system is described in terms of an
+iterative development process and an evaluation cycle. While this is not meant to be taken
+literally, it is more of a figure of speech to describe the continuous improvement process
+based on the outputs of rigorous experiments and standardized benchmarking. Through
+the analysis of the performance outputs, specific methodological limitations are also iden-
+tifiable, thus allowing for improvements to be made to the efficacy of the cybersecurity
+system [1].
+In addition to the internal improvement process of the cybersecurity system, the in-
+fluence of the scientific community on the development of cybersecurity systems is also
+significant. Peer-reviewed research is essential to provide the necessary validation for novel
+approaches to cybersecurity. Through the scrutiny of novel methodologies, cybersecurity
+systems are developed on the foundation of reliability and empirical evidence. This shared
+knowledge does not just contribute to the improvement of individual cybersecurity systems
+but also to the improvement of the entire industry to develop more robust, transparent,
+and trustworthy AI-driven cybersecurity solutions.
+2.24 Responsible Use of Generative AI in Foundations Work
+The introduction of generative AI in the cybersecurity world also comes with a tremendous
+responsibility to adhere to ethical standards and academic integrity. To this end, and
+in order to fully comply with all relevant regulations, there has to be a commitment to
+transparency and proper citation of all foundational work in its implementation and use [8].
+This serves as a foundation for a professional and credible approach to security research,
+especially in a world in which automated content generation can so easily be used to mask
+true origins and intent.
+Other than these ethical considerations, however, the philosophy behind the operation
+and use of this system revolves around the concept of human augmentation. This means,
+rather than seeing generative AI as a replacement for human intervention, we believe
+that its most effective use comes in the form of a sophisticated aid to human decision-
+making, especially in a security world in which nuanced human judgment, intuition, and
+accountability are absolutely critical and cannot be replaced by a machine, no matter how
+advanced.
+2.25 Summary of the Chapter
+As can be seen, this current chapter has established the foundational theoretical, algorith-
+mic, and architectural underpinnings necessary to enable an emerging Agentic AI-based
+cybersecurity paradigm. One of the overarching themes of this current work has been the
+
+--- Page 32 ---
+Interim Report 28
+need to transition away from legacy rule-based systems that are static and circumventable,
+towards more autonomous and adaptive models. These agentic models are uniquely capa-
+ble of real-time threat identification and response, thus affording a more dynamic defense
+against the ever-increasing threat landscape of digital risks [7], [13].
+However, while the advantages offered in terms of automation and flexibility are ob-
+vious, there exist certain complexities associated with the deployment of Agentic AI. The
+move towards autonomy has given rise to a series of systemic challenges, especially in rela-
+tion to operational safety, regulatory governance, and decision explanation. The only way
+to overcome these complexities is through a multi-dimensional approach that incorporates
+structured technical frameworks, along with evaluation procedures and ethical considera-
+tions. The only way to effectively balance these high-speed automated capabilities with
+human-defined guardrails is to ensure the development of reliable next-generation cyberse-
+curity systems, which would be required in the future [1], [2], [5].
+3 Interim Report
+3.1 Chapter Overview
+Briefly introduce the purpose of the interim report, scope of progress covered, and its role
+in shaping the remainder of the project.
+3.2 Dataset Acquisition and Preprocessing
+3.2.1 Dataset Description
+Detail the datasets used, including source, structure, size, and features.
+3.2.2 Data Quality Checks
+Highlight steps taken to handle missing values, duplicates, or inconsistencies.
+3.2.3 Exploratory Data Analysis (EDA)
+Discuss trends, distributions, and insights from the dataset using charts and statistics.
+3.2.4 Preprocessing Pipelines
+Describe encoding, normalization, augmentation, or transformation techniques applied.
+3.3 Feature Engineering
+3.3.1 Feature Identification Techniques
+Explain how features were selected or extracted from raw data.
+3.3.2 Dimensionality Reduction (if applicable)
+Discuss use of PCA, LDA, or other techniques to reduce feature space.
+3.3.3 Feature Impact Observations
+Summarize which features appear influential in preliminary testing.
+3.4 Technical Implementation
+3.4.1 Tools and Technology Stack
+List the platforms, languages, libraries, and IDEs used so far.
+
+--- Page 33 ---
+Interim Report Baseline Model Development29
+3.4.2 System Setup and Environment Configuration
+Explain the computing environmentâĂŤOS, dependencies, GPU usage, version control.
+3.4.3 Modular Codebase Description
+Document implemented modules, APIs, or pipelines (with screenshots if applicable).
+3.5 Baseline Model Development
+3.5.1 Baseline Algorithm Description
+Describe the first version of your model or algorithm.
+3.5.2 Training Setup and Parameters
+List hyperparameters, epochs, batch sizes, optimizers, etc., used in initial experiments.
+3.5.3 Early Performance Metrics
+Present results like accuracy, precision, F1-score, latency, etc., from the baseline runs.
+3.5.4 Output Visualization and Interpretation
+Include confusion matrices, ROC curves, or output plots to explain behavior.
+3.6 Preliminary Analysis and Observations
+3.6.1 Result Analysis and Discussion
+Interpret model behavior and accuracy trends; identify possible sources of error.
+3.6.2 Error Profiling and Bias Detection
+Mention misclassifications, overfitting signs, or bias in predictions.
+3.6.3 Lessons Learned
+Discuss initial surprises, technical challenges, or confirmations of earlier hypotheses.
+3.7 Originality and Innovation in Approach
+3.7.1 Creative Framing of the Problem
+Highlight unique perspectives or constraints applied in your approach.
+3.7.2 Experimental Innovations
+Propose alternative techniques, architectures, or data-handling strategies explored.
+3.8 Risk Assessment and Project Management
+3.8.1 Progress Tracker vs. Original Timeline
+Show Gantt chart or milestone chart with updates.
+3.8.2 Bottlenecks and Delays
+Mention technical or resource-related delays and how they are being addressed.
+3.8.3 Risk Mitigation Strategies
+Identify potential risks in computation, ethics, or data and your contingency plans.
+
+--- Page 34 ---
+Interim Report Experimental Reproducibility30
+3.9 Experimental Reproducibility
+3.9.1 Data Splits and Control Measures
+Clearly state train/validation/test splits and their reproducibility strategy.
+3.9.2 Random Seed Control
+Mention if random seeds, initialization settings, or sampling techniques are made repeat-
+able.
+3.10 Scalability and Efficiency Considerations
+3.10.1 Memory, Time, and Resource Profiling
+Mention compute time, CPU/GPU usage, memory consumption.
+3.10.2 Scalability Constraints
+Highlight algorithmic limitations for larger datasets or real-time deployment.
+3.11 Ethical Considerations and Responsible AI Use
+3.11.1 Generative AI Usage Disclosure
+Disclose if tools like ChatGPT, Copilot, Bard, etc., were used in writing, coding, or plan-
+ning.
+3.11.2 Bias and Fairness in Dataset
+Comment on demographic fairness, sampling bias, or ethical concerns in your dataset or
+model.
+3.12 Feedback Incorporation and Continuous Improvement
+3.12.1 Peer and Mentor Feedback Summary
+List key feedback points and how they influenced current progress.
+3.12.2 Reflection and Learning Journey
+Describe skills acquired, mindset changes, and personal development as a researcher.
+3.13 Chapter Summary and Next Steps
+Summarize interim progress, major takeaways, and refinements planned for the final phase
+of the project.
+Optional AppendicesVisuals: Confusion matrices, EDA plots, timelines
+Tables: Detailed metric breakdowns, hyperparameter logs
+Reproducibility: Scripts, requirements.txt, model cards
+
+--- Page 35 ---
+REFERENCES REFERENCES31
+References
+[1] S. J. Lazer, K. Aryal, M. Gupta, and E. Bertino.A Survey of Agentic AI and Cybersecurity:
+Challenges, Opportunities and UseâĂŚcase Prototypes. 2026.
+[2] A. Chhabra, S. Datta, S. K. Nahin, and P. Mohapatra.Agentic AI Security: Threats,
+Defenses, Evaluation, and Open Challenges. 2026.
+[3] P. Kumar.Agentic AIâĂŚDriven Threat Detection and Mitigation Architectures for Financial
+Data Security: Protecting Retirement and Wealth Management Platforms. JISEM, 2024.
+[4] G. Kotte.Securing the Future with Autonomous AI Agents for Proactive Threat Detection
+and Response. RJEMS, 4(5), 165âĂŞ170, 2025
+[5]Securing Agentic AI with the NIST Cybersecurity Framework 2.0.2025 (systematic
+review aligning OWASP and CSF 2.0).
+[6] S. R. Maka et al.Automating Cyber Threat Response Using Agentic AI and Reinforcement
+Learning Techniques.Journal of Electrical Systems, 17(4), 138âĂŞ148, 2021.
+[7] N. Kshetri.Transforming cybersecurity with agentic AI to combat emerging cyber threats.
+Telecommunications Policy, vol. 49, 2025.
+[8] S. Hosseini and H. SeilaniThe role of agentic AI in shaping a smart future: A systematic
+review. 2025.
+[9] I. Adabara, B. O. Sadiq, A. N. Shuaibu, Y. I. Danjuma, and M. Venkateswarlu.A Review of
+Agentic AI in Cybersecurity: Cognitive Autonomy, Ethical Governance, and
+Quantum-Resilient Defense. F1000Research, vol. 14, 2025
+[10] Reza Vatankhah Barenji, Sina Khoshgoftar.Agentic AI for Autonomous Anomaly
+Management in Complex System. arXiv preprint, 2025.
+[11] Oluwakemi T. Olayinka, Sumeet Jeswani , Divine Iloh.Adaptive Cybersecurity Architecture
+for Digital Product Ecosystems Using Agentic AI. arXiv preprint, 2025.
+[12] L. Advani.Trajectory Guard: A Lightweight Sequence-Aware Model for Real-Time Anomaly
+Detection in Agentic AI. arXiv preprint, 2026.
+[13] Sahaya Jestus Lazer, Kshitiz Aryal, Maanak Gupta, Elisa Bertino.A Survey of Agentic AI
+and Cybersecurity: Challenges, Opportunities and Use-case Prototypes. arXiv preprint, 2026
+[14] O. Lindfeldt.Agentic AI Systems for Anomaly Detection and Predictive Data Analytics.
+Copenhagen Institute of Technology, 2025
+[15] M. A. Belay, A. Haghipour, A. Rasheed, and P. S. Rossi.Agentic and LLM-Based
+Multimodal Anomaly Detection: Architectures, Challenges, and Prospects. aPreprints, 2026.
+[16] A. Hozouri, A. Mirzaei, and M. Effatparvar.A Comprehensive Survey on Intrusion
+Detection Systems with Advances in Machine Learning, Deep Learning and Emerging
+Cybersecurity Challenges. Discover Artificial Intelligence, vol. 5, 2025.
+[17] T. Talaei Khoei and N. Kaabouch.A Comparative Analysis of Supervised and Unsupervised
+Models for Detecting Attacks on the Intrusion Detection Systems. Information, vol. 14, no. 2,
+2023.
+[18] F. Genuario, G. Santoro, M. Giliberti, S. Bello, E. Zazzera, and D. Impedovo.Machine
+Learning-Based Methodologies for Cyber-Attacks and Network Traffic Monitoring: A Review
+and Insights. Information, vol. 15, 2024
+[19] J. L. Leevy, J. Hancock, R. Zuech, and T. M. Khoshgoftaar.Detecting Cybersecurity Attacks
+Across Different Network Features and Learners. Journal of Big Data, vol. 8, 2021
+[20] M. J. Goswami.AI-Based Anomaly Detection for Real-Time Cybersecurity. International
+Journal of Research and Review Techniques, vol. 3, no. 1, 2024.
+
+--- Page 36 ---
+REFERENCES REFERENCES32
+[21] Mohamed Almansoori.AI-Driven Anomaly Detection in Cybersecurity. 2024
+[22] A. H. Ali et al.Unveiling Machine Learning Strategies and Considerations in Intrusion
+Detection Systems: A Comprehensive Survey. Frontiers in Computer Science, vol. 6, 2024.
+[23] S. Kumari, C. Prabha, A. Karim, M. M. Hassan, and S. Azam.A Comprehensive
+Investigation of Anomaly Detection Methods in Deep Learning and Machine Learning:
+2019âĂŞ2023. IET Information Security, 2024.
+[24] Zahedi Azam, Md. Motaharul Islam, and Mohammad Nurul Huda.Enhancing Network
+Intrusion Detection: A Comparative Analysis of Machine Learning Models on Complex
+Network Traffic Data. Proceedings of IoTCCT 2024, 2024
+[25] Carmen SÃąnchez-Zas and JosÃľ Ignacio Moreno, Xavier Larriva-Novo , VÃŋctor A.
+VillagrÃą , Mario Sanz Rodrigo.
+Design and Evaluation of Unsupervised Machine Learning Models for Anomaly
+Detection in Streaming Cybersecurity Logs
+[26] Jie Hu ,Xiaohan Wang,Yuan Liu.Enhancing Network Intrusion Detection: A Comparative
+Analysis of Machine Learning Models on Complex Network Traffic Data. in Proceedings of
+the ACM Conference, 2024.
+[27] Binita Bohara1, Jay Bhuyan1, Fan Wu1, Junhua Ding2.
+A survey on the use of Data Clustering For Intrusion Detection System in
+CyberSecurity
+[28] Zagroz Aziz , Robert Bestak.
+Insight into Anomaly Detection and Prediction and Mobile Network Security
+Enhancement Leveraging K-Means Clustering on Call Detail Records
+[29] Seyed-Ali Sadegh-Zadeh, Mostafa Tajdini.
+An unsupervised machine learning approach for cyber threat detection using
+geographic profiling and Domain Name System data
+[30] Jie Hu ,Xiaohan Wang,Yuan Liu.Enhancing Network Intrusion Detection: A Comparative
+Analysis of Machine Learning Models on Complex Network Traffic Data. in Proceedings of
+the ACM Conference, 2024.
+[31] S. Gadal, R. Mokhtar, M. Abdelhaq, R. Alsaqour, E. S. Ali, and R. Saeed.Machine
+Learning-Based Anomaly Detection Using K-Mean Array and Sequential Minimal
+Optimization. Electronics, vol. 11, no. 14, p. 2158, 2022, doi: 10.3390/electronics11142158.
+[32] Amuthan Prabakar Muniyandi, R. Rajeswari, and R. Rajaram.Network Anomaly Detection
+by Cascading K-Means Clustering and C4.5 Decision Tree Algorithm. Procedia Engineering,
+vol. 30, pp.174-182, 2012.
+[33] Maureen Oluchukwuamaka Okafor ,Department of Computer Science, Louisiana State
+University Shreveport, USA. World Journal of Advanced Research and Reviews, 2024, 24(03),
+1116âĂŞ1132, Deep learning in cybersecurity: Enhancing threat detection and response
+[34] Khatha Mahendar, Gandla Shivakanth2 Department of Computer Science and
+Engineering,Koneru Lakshmaiah Education Foundation, Hyderabad„ Telangana,India.A
+Survey of Intrusion Detection Systems Based on Machine Learning for Cloud Security
+[35] Aleksander Ogonowski, MichaÅĆ Åżebrowski, Arkadiusz ÄĘwiek„ Tobiasz Jarosiewicz,
+Konrad Klimaszewski, Adam Padee, Piotr Wasiuk, MichaÅĆ WÃşjcik ,Preliminary study on
+artificial intelligence methods for cybersecurity threat detection in computer networks based
+on raw data packets.
+

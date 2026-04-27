@@ -1,0 +1,20 @@
+# Dataset
+kaggle_dataset/
+*.csv
+
+# Output and Models
+artifacts/
+saved_models/
+*.keras
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+env/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
